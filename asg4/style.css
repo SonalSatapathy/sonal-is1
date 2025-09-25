@@ -1,0 +1,36 @@
+html {
+	background-color: honeydew;
+}
+
+
+
+h1,h2, a, table {
+	font-family: "SUSE Mono", sans-serif;
+	color: teal;
+}
+
+Img {
+	width: 150px;
+	height: 350px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+  }
+  th, td {
+    padding: 8px; 
+    text-align: left;
+  }
+
+ul {
+	text-align: center;
+	font-family: "SUSE Mono", sans-serif;
+	color: dark turquoise;
+}
+
+.center-table {
+	width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+}
