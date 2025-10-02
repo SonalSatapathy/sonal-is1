@@ -1,4 +1,23 @@
-h1,p {
-	font-family: "SUSE Mono", sans-serif;
-	background-image: url(img/watercolor.png);
+html {
+	background-color: lightblue;
 }
+
+
+h1 {
+	font-family: "SUSE Mono", sans-serif;
+	color: blueviolet;
+}
+
+p,li {
+	font-family: "Varela Round", sans-serif;
+	color: royalblue;
+}
+
+h2,h3 {
+	font-family: "Varela Round", sans-serif;
+	color: steelblue;
+}
+
+Img {
+	width: 180px;
+	height: 140px;
