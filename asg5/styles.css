@@ -1,0 +1,49 @@
+html {
+	background-color: #FAFAD2;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #FAFAD2 10px ), repeating-linear-gradient( #e5e5c055, #e5e5c0 );
+
+h1,h2 {
+	font-family: "Great Vibes", cursive;
+	color: darkgoldenrod;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
+.another-section-heading {
+	margin-top: 100px;
+}
+
+.custom-style {
+	margin-top: 0px;
+}
+
+.section-heading {
+	font-family: "Great Vibes", cursive;
+	color: darkgoldenrod;
+	margin-top: 60px;
+	align: left;
+}
+
+.another-heading {
+	margin-top: 150px;
+}
+
+
+p{
+	font-family: "Marcellus", serif;
+	color: goldenrod;
+}
+
+Img {
+	width: 210px;
+	height: 350px;
+}
+
+ul {
+	font-family: "Marcellus", serif;
+	color: goldenrod;
+}
