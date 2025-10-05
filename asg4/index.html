@@ -21,11 +21,12 @@
       text-align: center;
     }
 
+    /* Centers the main section (image + list + table) */
     .artist-section {
       display: flex;
-      justify-content: center;  /* ✅ Centers the entire section on the page */
+      justify-content: center;
       align-items: flex-start;
-      gap: 40px;                /* Space between image and table */
+      gap: 40px;
       margin-top: 20px;
     }
 
@@ -50,14 +51,19 @@
       text-decoration: underline;
     }
 
+    .artist-details {
+      max-width: 500px;
+    }
+
     ul {
       list-style-type: square;
       font-size: 1.1em;
-      margin-top: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
 
     table {
-      width: 400px;
+      width: 100%;
       border-collapse: collapse;
     }
 
@@ -78,41 +84,45 @@
   <h2>Jojo Siwa</h2>
 
   <div class="artist-section">
+    <!-- Left side: Image and link -->
     <div class="artist-info">
       <img src="Images/Img Jojo Siwa.jpg" alt="Jojo Siwa">
       <a href="https://jojosiwa.com/" target="_blank">Jojo Siwa Website</a>
     </div>
 
-    <table>
-      <tr>
-        <th>Top 3 Worst Pieces of Work</th>
-        <th>Year Produced</th>
-        <th>Rating on Musicboard</th>
-      </tr>
-      <tr>
-        <td>Karma</td>
-        <td>2024</td>
-        <td>Rated 1.9</td>
-      </tr>
-      <tr>
-        <td>Bulletproof</td>
-        <td>2025</td>
-        <td>Rated 1.2</td>
-      </tr>
-      <tr>
-        <td>Bette Davis Eyes</td>
-        <td>2025</td>
-        <td>Rated 0.8</td>
-      </tr>
-    </table>
-  </div>
+    <!-- Right side: Better artists list and table -->
+    <div class="artist-details">
+      <p><strong>3 Better Artists:</strong></p>
+      <ul>
+        <li>Ariana Grande</li>
+        <li>Taylor Swift</li>
+        <li>Sabrina Carpenter</li>
+      </ul>
 
-  <ul>
-    3 Better Artists:
-    <li>Ariana Grande</li>
-    <li>Taylor Swift</li>
-    <li>Sabrina Carpenter</li>
-  </ul>
+      <table>
+        <tr>
+          <th>Top 3 Worst Pieces of Work</th>
+          <th>Year Produced</th>
+          <th>Rating on Musicboard</th>
+        </tr>
+        <tr>
+          <td>Karma</td>
+          <td>2024</td>
+          <td>Rated 1.9</td>
+        </tr>
+        <tr>
+          <td>Bulletproof</td>
+          <td>2025</td>
+          <td>Rated 1.2</td>
+        </tr>
+        <tr>
+          <td>Bette Davis Eyes</td>
+          <td>2025</td>
+          <td>Rated 0.8</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 
 </body>
 </html>
