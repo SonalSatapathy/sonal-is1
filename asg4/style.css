@@ -18,6 +18,10 @@ body {
       text-align: center;
     }
 
+	h1,h2, a, table {
+		font-family: "SUSE Mono", sans-serif;
+		color: teal;
+	}
     /* Keep image and right content side by side */
     .artist-section {
       display: flex;
