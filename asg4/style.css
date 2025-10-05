@@ -1,36 +1,75 @@
-html {
-	background-color: honeydew;
-}
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+    }
 
+    h1 {
+      color: #d62828;
+      text-align: center;
+    }
 
+    h2 {
+      color: #333;
+      text-align: center;
+    }
 
-h1,h2, a, table {
-	font-family: "SUSE Mono", sans-serif;
-	color: teal;
-}
+    /* Keep image and right content side by side */
+    .artist-section {
+      display: flex;
+      justify-content: center;   /* centers whole section */
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 20px;
+    }
 
-Img {
-	width: 150px;
-	height: 350px;
-}
+    img {
+      width: 250px;
+      border-radius: 10px;
+    }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse; 
-  }
-  th, td {
-    padding: 8px; 
-    text-align: left;
-  }
+    .artist-info {
+      text-align: center;
+    }
 
-ul {
-	text-align: center;
-	font-family: "SUSE Mono", sans-serif;
-	color: dark turquoise;
-}
+    .artist-info a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
 
-.center-table {
-	width: 80%; 
-        margin-left: auto;
-        margin-right: auto;
-}
+    .artist-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Right side container for list + table */
+    .artist-details {
+      display: flex;
+      flex-direction: column; /* stack list above table */
+      align-items: flex-start;
+      width: 500px;
+    }
+
+    ul {
+      list-style-type: square;
+      font-size: 1.1em;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #eee;
+    }
