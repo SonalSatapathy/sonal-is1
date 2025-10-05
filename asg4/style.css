@@ -60,12 +60,11 @@ body {
       width: 500px;
     }
 
-    ul {
-      list-style-type: square;
-      font-size: 1.1em;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
+	ul {
+		text-align: center;
+		font-family: "SUSE Mono", sans-serif;
+		color: dark turquoise;
+	}
 
     table {
       width: 100%;
