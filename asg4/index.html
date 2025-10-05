@@ -21,10 +21,10 @@
       text-align: center;
     }
 
-    /* Centers the main section (image + list + table) */
+    /* Keep image and right content side by side */
     .artist-section {
       display: flex;
-      justify-content: center;
+      justify-content: center;   /* centers whole section */
       align-items: flex-start;
       gap: 40px;
       margin-top: 20px;
@@ -51,8 +51,12 @@
       text-decoration: underline;
     }
 
+    /* Right side container for list + table */
     .artist-details {
-      max-width: 500px;
+      display: flex;
+      flex-direction: column; /* stack list above table */
+      align-items: flex-start;
+      width: 500px;
     }
 
     ul {
@@ -84,13 +88,13 @@
   <h2>Jojo Siwa</h2>
 
   <div class="artist-section">
-    <!-- Left side: Image and link -->
+    <!-- Left: Image -->
     <div class="artist-info">
       <img src="Images/Img Jojo Siwa.jpg" alt="Jojo Siwa">
       <a href="https://jojosiwa.com/" target="_blank">Jojo Siwa Website</a>
     </div>
 
-    <!-- Right side: Better artists list and table -->
+    <!-- Right: List + Table stacked -->
     <div class="artist-details">
       <p><strong>3 Better Artists:</strong></p>
       <ul>
