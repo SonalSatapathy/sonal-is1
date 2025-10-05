@@ -60,6 +60,12 @@ body {
       width: 500px;
     }
 
+	p {
+			text-align: left;
+			font-family: "SUSE Mono", sans-serif;
+			color: dark turquoise;
+		}
+
 	ul {
 		text-align: left;
 		font-family: "SUSE Mono", sans-serif;
