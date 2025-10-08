@@ -19,7 +19,7 @@ h3 {
 p {
 	font-family: "Ubuntu", sans-serif;
 	margin-right: auto;
-	background-color: #C2EBD5;
+	background-color: #C2EBD5, padding-right: 40%;
 	color: darkblue;
 	padding-right: 40%;
 
