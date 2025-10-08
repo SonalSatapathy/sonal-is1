@@ -1,0 +1,54 @@
+html {
+background-color: #bbeef4;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #bbeef4 20%, #bbeef4 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #bbeef4 20%, #bbeef4 80%, transparent 80%, transparent) 100px 100px, linear-gradient(#f7f7f7 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #f7f7f7 8px, #bbeef4 8px) -4px 0;
+background-size: 200px 200px, 200px 200px, 100px 100px, 100px 100px;
+}
+
+h2,h1 {
+	font-family: "Instrument Serif", serif;
+}
+
+h3 {
+	font-family: "Instrument Serif", serif;
+	font-size: 1.4em;
+	font-weight: 400;
+
+}
+
+p {
+	font-family: "Ubuntu", sans-serif;
+	margin-right: auto;
+	color: darkblue;
+
+}
+
+.textBox {
+	margin-right: 60%;
+	padding: 15px;
+	background: #A0EBDD;
+	margin-bottom: 10%;
+	height: 310px;
+	margin-top: auto;
+	margin-top: 100px;
+
+
+}
+
+Img {
+	height: 200px;
+	padding-right: 100px;
+	margin-top: -350px;
+	background-color: transparent;
+}
+
+.section {
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+	background-color: transparent;
+	padding-right: 10px;
+	padding-bottom: 600px;
+	margin-bottom: 700px;
+	margin-top: auto;
+}
+
