@@ -1,0 +1,65 @@
+/* akaya-kanadaka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Akaya Kanadaka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/akaya-kanadaka-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alan-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alan Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alan-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+	background-image: url('images/background_img.webp');
+	background-repeat: no-repeat; /* Prevents image repetition */
+  background-size: cover; /* Scales the image to cover the entire element */
+  background-position: center center; /* Centers the image */
+}
+
+h1 {
+font-family: 'Akaya Kanadaka';
+color: coral;
+}
+
+h2 {
+font-family: 'Afacad Flux';
+color: deeppink;
+}
+
+h3 {
+	font-family: 'Afacad Flux';
+	color: deeppink;
+}
+
+p {
+	font-family: 'Alan Sans';
+	color: coral;
+	text-align: center
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
