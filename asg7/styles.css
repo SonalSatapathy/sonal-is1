@@ -57,11 +57,12 @@ a {
   color: lightseagreen;
 }
 
+.image {
+        margin-top: 80px;
+    }
 
+.p,.h3 {
+  margin-top: 90px;
+  padding-left: 200px;
 
-
-
-
-
-
-
+}
