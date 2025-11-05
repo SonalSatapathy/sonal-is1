@@ -1,0 +1,98 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+html {
+    background-color: #EBC3DB;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul li {
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px black;
+}
+
+mav a {
+    /* transition: all .5s; */
+    transition: transform .5s, background-color 1s ease-in .5s;
+}
+
+mav athover {
+    background-color: red;
+    transform: scale (1.5);
+}
+
+
+@keyframes logo {
+    from {
+        transform: rotate (0) scale (.5);
+        left: 120%;
+    }
+
+    50% {
+        transform: rotate (-720dng) scale (.5);
+        left: 0;
+    }
+
+
+    to {
+        transform: rotate (0) scale (1);
+    }
+}
+
+.logo {
+    animation: logo 30s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
