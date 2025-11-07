@@ -28,6 +28,25 @@ html {
     background-color: #EBC3DB;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #DC9EBB;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+
+  /* 🌸 Soft Osaka Castle background */
+  background-image: url('images/osaka.jpg');
+  background-size: cover;              /* fills screen */
+  background-position: center;         /* centers the image */
+  background-attachment: fixed;        /* parallax effect */
+  background-repeat: no-repeat;
+
+  /* soft light overlay for readability */
+  background-color: #EBB9D0;
+  background-blend-mode: lighten;
+}
+
 /* orelega-one-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -53,9 +72,54 @@ body {
 }
 
 p {
-  font-size: 1em;
-  color: #A24B6A;
+  font-size: 1.1em;
+  color: #5A454F;
+  max-width: 600px;
 }
+
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #F5BFD7;
+  border-bottom: 3px solid #DAA7B4;
+}
+
+nav ul li {
+  margin: 8px;
+  border-radius: 10px;
+  background-color: #FBD2E0;
+  box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  transition: transform 0.25s, background-color 0.25s;
+}
+
+nav ul li:hover {
+  transform: translateY(-4px);
+  background-color: #ffc6dd;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5c2238;
+  padding: 12px 18px;
+  display: block;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  background-color: #F5BFD7;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #5c2238;
+  border-top: 2px solid #DAA7B4;
+}
+
 
 h1,
 h2,
@@ -74,7 +138,9 @@ h1,
   margin-top: 0;
   font-size: 3em;
   color:#D7A6B3;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #6b3551;
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
 h2,
