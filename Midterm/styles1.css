@@ -48,13 +48,13 @@ h1,
   font-weight: 700;
   margin-top: 0;
   font-size: 3em;
-  color:#D7A6B3;
+  color:#A3E7FF;
   text-shadow: 2px 2px 4px #000000;
 }
 
 h2,
 .text-size-h2 { font-size: 1.6em;
-    color:#DAA7B4;
+    color:#A3E7FF;
     text-shadow: 1px 1px 2px #000000;
 
 }
@@ -184,7 +184,7 @@ nav ul {
 }
 
 nav ul li {
-  background-color: lightpink;
+  background-color: #A3E7FF;
   border-radius: 8px;
   box-shadow: 3px 4px 5px rgba(0,0,0,.4);
   
