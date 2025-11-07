@@ -47,16 +47,6 @@ body {
   background-blend-mode: lighten;
 }
 
-section {
-  display: block;
-  margin: 20px auto;           
-  width: 600px;
-  height: 300px;
-  border-radius: 12px;
-  background-color: white;     
-  padding: 15px;               
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-}
 
 @font-face {
   font-display: swap; 
