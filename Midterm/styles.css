@@ -37,32 +37,32 @@ body {
 
   
   background-image: url('images/osaka.jpg');
-  background-size: cover;              /* fills screen */
-  background-position: center;         /* centers the image */
-  background-attachment: fixed;        /* parallax effect */
+  background-size: cover;              
+  background-position: center;         
+  background-attachment: fixed;        
   background-repeat: no-repeat;
 
-  /* soft light overlay for readability */
+  
   background-color: #EBB9D0;
   background-blend-mode: lighten;
 }
 
-/* orelega-one-regular - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Orelega One';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/orelega-one-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/orelega-one-v14-latin-regular.woff2') format('woff2'); 
 }
 
 /* open-sans-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); 
 }
 
 body {
@@ -86,7 +86,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #F5BFD7;
+  background-color: white;
   border-bottom: 3px solid #DAA7B4;
 }
 
