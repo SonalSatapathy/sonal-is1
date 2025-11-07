@@ -1,6 +1,11 @@
 
 html {
     background-color: #FFD695;
+    background-color: #F5C984;
+opacity: 1;
+background-image:  radial-gradient(#ffd6fa 1.4000000000000001px, transparent 1.4000000000000001px), radial-gradient(#ffd6fa 1.4000000000000001px, #F5C984 1.4000000000000001px);
+background-size: 56px 56px;
+background-position: 0 0,28px 28px;
 }
 
 /* orelega-one-regular - latin */
