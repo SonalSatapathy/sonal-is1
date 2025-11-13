@@ -1,0 +1,147 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+html {
+    background-color: #6868A1; 
+    background-image: linear-gradient(#DBD1FF, #8B7CC1);
+}
+
+
+/* aladin-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aladin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aladin-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alkatra-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alkatra';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alkatra-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+:root {
+    --thumb-size: 220px;  /* tweak this to make items larger/smaller */
+    --gap: 14px;
+    --radius: 14px;
+  }
+
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    justify-content: center;   /* centers rows */
+    padding: clamp(12px, 3vw, 28px);
+    background: transparent;
+  }
+
+  .item {
+    flex: 1 1 var(--thumb-size);  /* responsive width with a nice base size */
+    max-width: var(--thumb-size); /* keeps them equal-sized on large screens */
+    border-radius: var(--radius);
+    overflow: hidden;             /* rounds image corners */
+    box-shadow: 0 6px 20px rgba(0,0,0,.06);
+    background: #fff;
+    transition: transform .15s ease;
+  }
+  .item:hover { transform: translateY(-3px); }
+
+  .item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;         /* perfect squares; remove if you want natural heights */
+    object-fit: cover;
+  }
+
+img {
+    height: 350px;
+    width: 300px;
+}
+
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Alkatra';
+  padding-right: 50%;
+  padding-left: 10px;
+  color: darkmagenta;
+}
+
+h1 {
+    font-family: 'Aladin';
+    font-size: 50px;
+    color: #4F34A9;
+}
+
+h2 {
+    font-family: 'Aladin';
+    font-size: 40px;
+    color: #4F34A9;
+}
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
