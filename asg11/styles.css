@@ -102,12 +102,23 @@ body {
   line-height: 1.65;
 }
 
+.intro {
+      font-size: 1em;
+  font-family: 'Alkatra';
+  padding-right: 50%;
+  padding-left: 10px;
+  color: darkmagenta;
+}
+
 p {
   font-size: 1em;
   font-family: 'Alkatra';
   padding-right: 50%;
   padding-left: 10px;
   color: darkmagenta;
+      text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
