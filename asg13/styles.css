@@ -1,0 +1,147 @@
+/* aclonica-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aclonica-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+ background-color: #fff9e4;
+opacity: 1;
+background-image: linear-gradient(0deg, #fff9e4 50%, #fcf5d4 50%);
+background-size: 31px 31px;
+}
+
+h1 {
+  font-size: 3.815rem;
+  font-family: 'Aclonica';
+  color: #8C7242;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #8C7242;
+  font-family: 'Aclonica';
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #ABA7A1;
+  line-height: 1.3; 
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.intro {
+	font-family: 'Adamina';
+     font-size: 1.2em;
+     color: #8C7242;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+h3 {
+	font-family: 'Afacad';
+    font-size: 1em;
+    color: #8C7242;
+}
+
+/* CSS Grid Container */
+.gridContainer {
+  display: grid;
+  border-radius: 10px;
+  background:
+  padding: 20px;              /* ← Extra padding for spacing */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "m1 m2 m3 m4"
+    "m5 m6 m7 m8"
+    "m9 m10 m11 m12";
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;             /* Center it */
+}
+
+/* CSS Grid Items */
+.box {
+  background-color: #F1E4CA;
+  color: black;
+  border-radius: 5px;
+  border: 4px grey; solid;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);;
+}
+
+
+
+
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+background-color: #F5F7DC;
+}
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 20px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.item img {
+width: 100%;
+max-width: 300px;
+border-radius: 5px;
+}
+.item h2 {
+font-size: 1.1rem;
+margin: 10px 0 5px;
+}
+.item p {
+font-size: 0.9rem;
+color: lightgrey;
+}
+
+a {
+	color: #493F2D;
+}
+
+
+
+
